@@ -23,7 +23,11 @@ contract InitialSale is Ownable {
         ijm.transfer(msg.sender, amount);
     }
 
-    function withdraw() onlyOwner external {
+    function withdrawKlay() onlyOwner external {
         owner().transfer(address(this).balance);
+    }
+
+    function withdrawIjm() onlyOwner external {
+        ijm.transfer(owner(), ijm.balanceOf(address(this)));
     }
 }
