@@ -16,11 +16,11 @@ contract Ark is Ownable {
     address[] public users;
     uint256 public step = 0;
 
-    constructor(
-        IKIP7 _oldIjm,
-        IKIP7 _newIjm
-    ) public {
+    constructor(IKIP7 _oldIjm) public {
         oldIjm = _oldIjm;
+    }
+
+    function setNewIjm(IKIP7 _newIjm) onlyOwner external {
         newIjm = _newIjm;
     }
 
