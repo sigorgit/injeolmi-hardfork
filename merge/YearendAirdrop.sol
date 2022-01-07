@@ -376,10 +376,6 @@ contract YearendAirdrop is Ownable {
         toReceive[msg.sender] = false;
     }
 
-    function withdrawKlay() onlyOwner external {
-        owner().transfer(address(this).balance);
-    }
-
     function withdrawIjm() onlyOwner external {
         newIjm.transfer(owner(), newIjm.balanceOf(address(this)));
     }

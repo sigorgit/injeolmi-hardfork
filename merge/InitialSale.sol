@@ -354,23 +354,32 @@ contract InitialSale is Ownable {
 
     IKIP7 public newIjm;
     uint256 public price = 144374553246136709;
+    uint256 public limit = 10424161083975580000000000;
+
     mapping(address => uint256) public bought;
     uint256 public total = 0;
+    uint256 public max = 50000 * 1e18;
     uint256 public step = 0;
 
     function setNewIjm(IKIP7 _newIjm) onlyOwner external {
         newIjm = _newIjm;
     }
 
+    function setMax(uint256 _max) onlyOwner external {
+        max = _max;
+    }
+    
     function setStep(uint256 _step) onlyOwner external {
         step = _step;
     }
 
     function buy(uint256 amount) payable external {
         require(step == 0);
-        require(amount.mul(price).div(18) == msg.value);
+        require(amount.mul(price).div(1e18) == msg.value);
         bought[msg.sender] = bought[msg.sender].add(amount);
+        require(bought[msg.sender] <= max);
         total = total.add(amount);
+        require(total <= limit);
     }
 
     function receiveNew() external {
