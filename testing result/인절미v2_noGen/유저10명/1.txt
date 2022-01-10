@@ -1,0 +1,268 @@
+
+C:\Users\kavan\Documents\GitHub\injeolmi-v2>yarn hardhat test .\test\Injeolmi2_noGen.test.ts
+yarn run v1.22.11
+$ C:\Users\kavan\Documents\GitHub\injeolmi-v2\node_modules\.bin\hardhat test .\test\Injeolmi2_noGen.test.ts
+Creating Typechain artifacts in directory typechain for target ethers-v5
+Successfully generated Typechain artifacts!
+
+
+  Injeolmi
+real total 100000000.0
+rtotal and diff 115792089237316195423570985008687907853269984665640500000000000000000000000000 0
+r/t rate 1157920892373161954235709850086879078532699846656405
+if(rS < rT/tT), rSupply, rTotal/tTotal false
+
+
+real total 100000000.000147427412315984
+rtotal and diff 78275108284032364406547789610248230671644701684903681178556806344224775181728 0
+r/t rate 25972115040
+if(rS < rT/tT), rSupply, rTotal/tTotal true
+A :  95824405.203224573550230822 78275108284032364406547789610248230671644593235875255072758295159956521009832
+B :  367892.032850398378841149 9554934199490005805091843762589297
+C :  272779.074190890883090398 7084649495390512935711015298486860
+D :  272779.073102367874970597 7084649467119268145136696219321460
+E :  272779.072013844919458341 7084649438848024720891581011091737
+F :  272779.070925322016553643 7084649410576782662976022985033747
+O :  1898249.267595200630862834 49301548352578294936650114141548203
+user0 :  272779.069836799166256492 7084649382305541971389714344023275
+user1 :  272779.068748276368566889 7084649354034302646132693714502613
+user2 :  272779.067659753623484819 7084649325763064687204586777574704
+
+
+0 th
+25972115040
+100 th
+7830192261
+200 th
+3338642806
+300 th
+1757431738
+400 th
+851294488
+500 th
+448791737
+600 th
+220174614
+700 th
+139453131
+800 th
+75331183
+2th user problem! contract / calculated
+1.078548138661681785
+r/t rate 43582507
+2th user problem! contract / calculated
+1.033386788670983469
+r/t rate 43561571
+900 th
+35942886
+1th user problem! contract / calculated
+1.018817863075685486
+r/t rate 35205102
+1th user problem! contract / calculated
+1.133193297691940433
+r/t rate 35181929
+5th user problem! contract / calculated
+1.755047383037574064
+r/t rate 32653086
+5th user problem! contract / calculated
+1.142243116818624419
+r/t rate 32279767
+5th user problem! contract / calculated
+1.731161173870585308
+r/t rate 32261337
+5th user problem! contract / calculated
+1.019718694033221176
+r/t rate 31923131
+5th user problem! contract / calculated
+1.217726413736366293
+r/t rate 31922899
+5th user problem! contract / calculated
+1.113256854636620209
+r/t rate 31859062
+5th user problem! contract / calculated
+1.771055497999752306
+r/t rate 31816834
+1th user problem! contract / calculated
+1.045081554369638828
+r/t rate 26993225
+1th user problem! contract / calculated
+1.529323879229927167
+r/t rate 26959520
+1th user problem! contract / calculated
+1.100730540446097039
+r/t rate 26781044
+1th user problem! contract / calculated
+1.209042751910916897
+r/t rate 26659649
+1th user problem! contract / calculated
+1.301107216509040391
+r/t rate 26645793
+1th user problem! contract / calculated
+1.521203420526341387
+r/t rate 25955288
+1000 th
+23505511
+real total 100000000.321938372644262931
+rtotal and diff 78275108284032364406547789610248230671643591104915800975861537565184839119140 0
+r/t rate 23505511
+if(rS < rT/tT), rSupply, rTotal/tTotal true
+A :  0.0 78275108284032364406547789610248230671643588754364693408535578053363344835238
+B :  3602881.976747494503505392 84687581936139976274585548225430
+C :  28653623.974333346235043074 673518073518556187594613566221805
+D :  12060589.88854022169545566 283490328291570955004971681745689
+E :  2768460.507631606350190064 65074078915200307012062402187421
+F :  3404635.386766759278525816 80027694534635314655740642157912
+O :  4382016.096490359815607597 103001527558231214039722344856114
+user0 :  4624861.051493016415214797 108709722319340663771012000923371
+user1 :  218396.677697972219836694 5133525509993140691065830065921
+user2 :  40284534.762237596130883837 946908574983658200468047477900239
+
+
+9th user problem! contract / calculated
+1.107155388659556635
+r/t rate 23397483
+3th user problem! contract / calculated
+1.344291520707293352
+r/t rate 22594695
+9th user problem! contract / calculated
+1.466531618094076036
+r/t rate 22594695
+3th user problem! contract / calculated
+1.254918687612152735
+r/t rate 22540677
+9th user problem! contract / calculated
+1.288822150818373154
+r/t rate 22540677
+3th user problem! contract / calculated
+1.280499557832469463
+r/t rate 22488676
+9th user problem! contract / calculated
+1.315094125650374212
+r/t rate 22488676
+3th user problem! contract / calculated
+1.632598563244610772
+r/t rate 22444827
+9th user problem! contract / calculated
+1.67670560050995969
+r/t rate 22444827
+3th user problem! contract / calculated
+1.157743115168376772
+r/t rate 22433422
+9th user problem! contract / calculated
+1.189021238201235139
+r/t rate 22433422
+3th user problem! contract / calculated
+1.137154410709390947
+r/t rate 21443749
+6th user problem! contract / calculated
+2.038196773579669275
+r/t rate 20467501
+6th user problem! contract / calculated
+1.229436899849592194
+r/t rate 19983449
+5th user problem! contract / calculated
+1.368216720288999579
+r/t rate 19475678
+5th user problem! contract / calculated
+1.900967852397474646
+r/t rate 19465875
+5th user problem! contract / calculated
+2.840603392947681857
+r/t rate 19465069
+5th user problem! contract / calculated
+1.481736089438896419
+r/t rate 19464829
+5th user problem! contract / calculated
+1.329615506799526439
+r/t rate 19335317
+5th user problem! contract / calculated
+1.171489202717024403
+r/t rate 19335314
+5th user problem! contract / calculated
+1.058926534032581831
+r/t rate 19328461
+5th user problem! contract / calculated
+2.468236078341627023
+r/t rate 18987813
+5th user problem! contract / calculated
+3.723845963521661234
+r/t rate 18676362
+3th user problem! contract / calculated
+1.91676816588839512
+r/t rate 17877881
+5th user problem! contract / calculated
+1.59761378653740039
+r/t rate 17877881
+3th user problem! contract / calculated
+1.602904079923274238
+r/t rate 16677635
+3th user problem! contract / calculated
+1.128547018378252894
+r/t rate 16676949
+5th user problem! contract / calculated
+1.00371138308982461
+r/t rate 15705179
+2th user problem! contract / calculated
+1.128599015674587891
+r/t rate 14559392
+2th user problem! contract / calculated
+1.168024530645681001
+r/t rate 14276805
+2th user problem! contract / calculated
+1.284816976157898405
+r/t rate 14268905
+9th user problem! contract / calculated
+1.260329102957050291
+r/t rate 13215125
+9th user problem! contract / calculated
+2.609322859764585357
+r/t rate 12592714
+9th user problem! contract / calculated
+1.715851184318218819
+r/t rate 12505398
+9th user problem! contract / calculated
+1.466690619207667378
+r/t rate 12505395
+9th user problem! contract / calculated
+2.228903355928221817
+r/t rate 12464476
+9th user problem! contract / calculated
+2.325437256670854952
+r/t rate 12445833
+9th user problem! contract / calculated
+2.617959634385416399
+r/t rate 12418191
+9th user problem! contract / calculated
+1.677052771846468046
+r/t rate 11898239
+7th user problem! contract / calculated
+1.750047463615702217
+r/t rate 11481084
+7th user problem! contract / calculated
+1.009920104118384404
+r/t rate 11365367
+7th user problem! contract / calculated
+2.170301678958042063
+r/t rate 11310956
+7th user problem! contract / calculated
+2.046471538735307612
+r/t rate 11228001
+7th user problem! contract / calculated
+1.742429598550217929
+r/t rate 11135703
+7th user problem! contract / calculated
+2.505448701055706297
+r/t rate 11057986
+7th user problem! contract / calculated
+1.420850684996255708
+r/t rate 10961426
+7th user problem! contract / calculated
+1.188112522868562391
+r/t rate 10898027
+7th user problem! contract / calculated
+2.757086916305642334
+r/t rate 10792946
+7th user problem! contract / calculated
+1.152778211263724735
+
+C:\Users\kavan\Documents\GitHub\injeolmi-v2>
