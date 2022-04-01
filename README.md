@@ -36,7 +36,8 @@
 - 단계3: 뉴 인절미 받아가기
 
 ### 초기 판매
-0x4e911c7284981Bf6Fc0A6f4cb3d7790d7A43D413
+- InitialSale: 0x4e911c7284981Bf6Fc0A6f4cb3d7790d7A43D413
+- InitialSaleReceiver: 0x3483B88A4874c257e87324CBC8Edeb99e75E6902
 
 - 기존 에어드롭 물량을 떡코노믹스 반영 없이 초기 판매
 
